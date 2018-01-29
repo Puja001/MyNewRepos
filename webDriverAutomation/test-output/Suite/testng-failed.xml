@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <test name="FirefoxTest(failed)" parallel="tests">
+    <parameter name="myBrowser" value="firefox"/>
+    <classes>
+      <class name="com.puja.webdriver.WalmartSearchFlow">
+        <methods>
+          <include name="SearchPage"/>
+          <include name="searchProduct"/>
+          <include name="aftetest"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.puja.webdriver.WalmartSearchFlow -->
+    </classes>
+  </test> <!-- FirefoxTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
