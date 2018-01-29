@@ -51,7 +51,7 @@ public class CaptureScreen {
 	
 	System.out.println("ScreenShotTaken");
 	driver.close();
-	
+	//========================================================
 
 }
 }
